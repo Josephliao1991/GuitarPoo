@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E30CDE41B56A00B009AA06A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E30CDE31B56A00B009AA06A /* main.m */; };
+		4E30CDE71B56A00B009AA06A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E30CDE61B56A00B009AA06A /* AppDelegate.m */; };
+		4E30CDEA1B56A00B009AA06A /* GuitarPoo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4E30CDE81B56A00B009AA06A /* GuitarPoo.xcdatamodeld */; };
+		4E30CDED1B56A00B009AA06A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E30CDEC1B56A00B009AA06A /* ViewController.m */; };
+		4E30CDF01B56A00B009AA06A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E30CDEE1B56A00B009AA06A /* Main.storyboard */; };
+		4E30CDF21B56A00B009AA06A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E30CDF11B56A00B009AA06A /* Images.xcassets */; };
+		4E30CDF51B56A00B009AA06A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E30CDF31B56A00B009AA06A /* LaunchScreen.xib */; };
+		4E30CE011B56A00B009AA06A /* GuitarPooTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E30CE001B56A00B009AA06A /* GuitarPooTests.m */; };
+		4E30CE0B1B56A060009AA06A /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E30CE0A1B56A060009AA06A /* AudioToolbox.framework */; };
+		4E30CE0D1B56A06E009AA06A /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E30CE0C1B56A06E009AA06A /* CFNetwork.framework */; };
+		4E30CE0F1B56A07C009AA06A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E30CE0E1B56A07C009AA06A /* CoreGraphics.framework */; };
+		4E30CE111B56A088009AA06A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E30CE101B56A088009AA06A /* CoreLocation.framework */; };
+		4E30CE131B56A094009AA06A /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E30CE121B56A094009AA06A /* MobileCoreServices.framework */; };
+		4E30CE151B56A09E009AA06A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E30CE141B56A09E009AA06A /* QuartzCore.framework */; };
+		4E30CE171B56A0A6009AA06A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E30CE161B56A0A6009AA06A /* Security.framework */; };
+		4E30CE191B56A0AF009AA06A /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E30CE181B56A0AF009AA06A /* StoreKit.framework */; };
+		4E30CE1B1B56A0B7009AA06A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E30CE1A1B56A0B7009AA06A /* SystemConfiguration.framework */; };
+		4E30CE1D1B56A0C0009AA06A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E30CE1C1B56A0C0009AA06A /* libz.dylib */; };
+		4E30CE1F1B56A0CD009AA06A /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E30CE1E1B56A0CD009AA06A /* libsqlite3.dylib */; };
+		4E30CE211B56A0E1009AA06A /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E30CE201B56A0E0009AA06A /* Accounts.framework */; };
+		4E30CE231B56A0E9009AA06A /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E30CE221B56A0E9009AA06A /* Social.framework */; };
+		4E30CE381B56A161009AA06A /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E30CE321B56A161009AA06A /* Bolts.framework */; };
+		4E30CE391B56A161009AA06A /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E30CE331B56A161009AA06A /* Parse.framework */; };
+		4E30CE3A1B56A161009AA06A /* ParseCrashReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E30CE341B56A161009AA06A /* ParseCrashReporting.framework */; };
+		4E30CE3B1B56A161009AA06A /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E30CE351B56A161009AA06A /* ParseFacebookUtils.framework */; };
+		4E30CE3C1B56A161009AA06A /* ParseFacebookUtilsV4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E30CE361B56A161009AA06A /* ParseFacebookUtilsV4.framework */; };
+		4E30CE3D1B56A161009AA06A /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E30CE371B56A161009AA06A /* ParseUI.framework */; };
+		4E30CE421B56A2F5009AA06A /* Server.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E30CE411B56A2F5009AA06A /* Server.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4E30CDFB1B56A00B009AA06A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E30CDD61B56A00B009AA06A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E30CDDD1B56A00B009AA06A;
+			remoteInfo = GuitarPoo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4E30CDDE1B56A00B009AA06A /* GuitarPoo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuitarPoo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E30CDE21B56A00B009AA06A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E30CDE31B56A00B009AA06A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4E30CDE51B56A00B009AA06A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4E30CDE61B56A00B009AA06A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4E30CDE91B56A00B009AA06A /* GuitarPoo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GuitarPoo.xcdatamodel; sourceTree = "<group>"; };
+		4E30CDEB1B56A00B009AA06A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4E30CDEC1B56A00B009AA06A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4E30CDEF1B56A00B009AA06A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4E30CDF11B56A00B009AA06A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4E30CDF41B56A00B009AA06A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		4E30CDFA1B56A00B009AA06A /* GuitarPooTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuitarPooTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E30CDFF1B56A00B009AA06A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E30CE001B56A00B009AA06A /* GuitarPooTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GuitarPooTests.m; sourceTree = "<group>"; };
+		4E30CE0A1B56A060009AA06A /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		4E30CE0C1B56A06E009AA06A /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		4E30CE0E1B56A07C009AA06A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4E30CE101B56A088009AA06A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		4E30CE121B56A094009AA06A /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		4E30CE141B56A09E009AA06A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		4E30CE161B56A0A6009AA06A /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		4E30CE181B56A0AF009AA06A /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		4E30CE1A1B56A0B7009AA06A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		4E30CE1C1B56A0C0009AA06A /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		4E30CE1E1B56A0CD009AA06A /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		4E30CE201B56A0E0009AA06A /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		4E30CE221B56A0E9009AA06A /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		4E30CE321B56A161009AA06A /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		4E30CE331B56A161009AA06A /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		4E30CE341B56A161009AA06A /* ParseCrashReporting.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseCrashReporting.framework; sourceTree = "<group>"; };
+		4E30CE351B56A161009AA06A /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
+		4E30CE361B56A161009AA06A /* ParseFacebookUtilsV4.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtilsV4.framework; sourceTree = "<group>"; };
+		4E30CE371B56A161009AA06A /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
+		4E30CE401B56A2F5009AA06A /* Server.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Server.h; sourceTree = "<group>"; };
+		4E30CE411B56A2F5009AA06A /* Server.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Server.m; sourceTree = "<group>"; };
+		4E30CE441B56A8CA009AA06A /* ServerConstant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ServerConstant.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E30CDDB1B56A00B009AA06A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E30CE231B56A0E9009AA06A /* Social.framework in Frameworks */,
+				4E30CE211B56A0E1009AA06A /* Accounts.framework in Frameworks */,
+				4E30CE1F1B56A0CD009AA06A /* libsqlite3.dylib in Frameworks */,
+				4E30CE1D1B56A0C0009AA06A /* libz.dylib in Frameworks */,
+				4E30CE391B56A161009AA06A /* Parse.framework in Frameworks */,
+				4E30CE3B1B56A161009AA06A /* ParseFacebookUtils.framework in Frameworks */,
+				4E30CE1B1B56A0B7009AA06A /* SystemConfiguration.framework in Frameworks */,
+				4E30CE191B56A0AF009AA06A /* StoreKit.framework in Frameworks */,
+				4E30CE171B56A0A6009AA06A /* Security.framework in Frameworks */,
+				4E30CE151B56A09E009AA06A /* QuartzCore.framework in Frameworks */,
+				4E30CE3D1B56A161009AA06A /* ParseUI.framework in Frameworks */,
+				4E30CE131B56A094009AA06A /* MobileCoreServices.framework in Frameworks */,
+				4E30CE111B56A088009AA06A /* CoreLocation.framework in Frameworks */,
+				4E30CE0F1B56A07C009AA06A /* CoreGraphics.framework in Frameworks */,
+				4E30CE0D1B56A06E009AA06A /* CFNetwork.framework in Frameworks */,
+				4E30CE3C1B56A161009AA06A /* ParseFacebookUtilsV4.framework in Frameworks */,
+				4E30CE0B1B56A060009AA06A /* AudioToolbox.framework in Frameworks */,
+				4E30CE381B56A161009AA06A /* Bolts.framework in Frameworks */,
+				4E30CE3A1B56A161009AA06A /* ParseCrashReporting.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E30CDF71B56A00B009AA06A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E30CDD51B56A00B009AA06A = {
+			isa = PBXGroup;
+			children = (
+				4E30CE301B56A161009AA06A /* ThirdParty */,
+				4E30CE3E1B56A169009AA06A /* FrameWorkS */,
+				4E30CDE01B56A00B009AA06A /* GuitarPoo */,
+				4E30CDFD1B56A00B009AA06A /* GuitarPooTests */,
+				4E30CDDF1B56A00B009AA06A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4E30CDDF1B56A00B009AA06A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E30CDDE1B56A00B009AA06A /* GuitarPoo.app */,
+				4E30CDFA1B56A00B009AA06A /* GuitarPooTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4E30CDE01B56A00B009AA06A /* GuitarPoo */ = {
+			isa = PBXGroup;
+			children = (
+				4E30CE3F1B56A28C009AA06A /* Model */,
+				4E30CDE51B56A00B009AA06A /* AppDelegate.h */,
+				4E30CDE61B56A00B009AA06A /* AppDelegate.m */,
+				4E30CDEB1B56A00B009AA06A /* ViewController.h */,
+				4E30CDEC1B56A00B009AA06A /* ViewController.m */,
+				4E30CDEE1B56A00B009AA06A /* Main.storyboard */,
+				4E30CDF11B56A00B009AA06A /* Images.xcassets */,
+				4E30CDF31B56A00B009AA06A /* LaunchScreen.xib */,
+				4E30CDE81B56A00B009AA06A /* GuitarPoo.xcdatamodeld */,
+				4E30CDE11B56A00B009AA06A /* Supporting Files */,
+			);
+			path = GuitarPoo;
+			sourceTree = "<group>";
+		};
+		4E30CDE11B56A00B009AA06A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4E30CDE21B56A00B009AA06A /* Info.plist */,
+				4E30CDE31B56A00B009AA06A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4E30CDFD1B56A00B009AA06A /* GuitarPooTests */ = {
+			isa = PBXGroup;
+			children = (
+				4E30CE001B56A00B009AA06A /* GuitarPooTests.m */,
+				4E30CDFE1B56A00B009AA06A /* Supporting Files */,
+			);
+			path = GuitarPooTests;
+			sourceTree = "<group>";
+		};
+		4E30CDFE1B56A00B009AA06A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4E30CDFF1B56A00B009AA06A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4E30CE301B56A161009AA06A /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				4E30CE311B56A161009AA06A /* Parse */,
+			);
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
+		4E30CE311B56A161009AA06A /* Parse */ = {
+			isa = PBXGroup;
+			children = (
+				4E30CE321B56A161009AA06A /* Bolts.framework */,
+				4E30CE331B56A161009AA06A /* Parse.framework */,
+				4E30CE341B56A161009AA06A /* ParseCrashReporting.framework */,
+				4E30CE351B56A161009AA06A /* ParseFacebookUtils.framework */,
+				4E30CE361B56A161009AA06A /* ParseFacebookUtilsV4.framework */,
+				4E30CE371B56A161009AA06A /* ParseUI.framework */,
+			);
+			path = Parse;
+			sourceTree = "<group>";
+		};
+		4E30CE3E1B56A169009AA06A /* FrameWorkS */ = {
+			isa = PBXGroup;
+			children = (
+				4E30CE221B56A0E9009AA06A /* Social.framework */,
+				4E30CE201B56A0E0009AA06A /* Accounts.framework */,
+				4E30CE1E1B56A0CD009AA06A /* libsqlite3.dylib */,
+				4E30CE1C1B56A0C0009AA06A /* libz.dylib */,
+				4E30CE1A1B56A0B7009AA06A /* SystemConfiguration.framework */,
+				4E30CE181B56A0AF009AA06A /* StoreKit.framework */,
+				4E30CE161B56A0A6009AA06A /* Security.framework */,
+				4E30CE141B56A09E009AA06A /* QuartzCore.framework */,
+				4E30CE121B56A094009AA06A /* MobileCoreServices.framework */,
+				4E30CE101B56A088009AA06A /* CoreLocation.framework */,
+				4E30CE0E1B56A07C009AA06A /* CoreGraphics.framework */,
+				4E30CE0C1B56A06E009AA06A /* CFNetwork.framework */,
+				4E30CE0A1B56A060009AA06A /* AudioToolbox.framework */,
+			);
+			name = FrameWorkS;
+			sourceTree = "<group>";
+		};
+		4E30CE3F1B56A28C009AA06A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4E30CE401B56A2F5009AA06A /* Server.h */,
+				4E30CE411B56A2F5009AA06A /* Server.m */,
+				4E30CE441B56A8CA009AA06A /* ServerConstant.h */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4E30CDDD1B56A00B009AA06A /* GuitarPoo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E30CE041B56A00B009AA06A /* Build configuration list for PBXNativeTarget "GuitarPoo" */;
+			buildPhases = (
+				4E30CDDA1B56A00B009AA06A /* Sources */,
+				4E30CDDB1B56A00B009AA06A /* Frameworks */,
+				4E30CDDC1B56A00B009AA06A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GuitarPoo;
+			productName = GuitarPoo;
+			productReference = 4E30CDDE1B56A00B009AA06A /* GuitarPoo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4E30CDF91B56A00B009AA06A /* GuitarPooTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E30CE071B56A00B009AA06A /* Build configuration list for PBXNativeTarget "GuitarPooTests" */;
+			buildPhases = (
+				4E30CDF61B56A00B009AA06A /* Sources */,
+				4E30CDF71B56A00B009AA06A /* Frameworks */,
+				4E30CDF81B56A00B009AA06A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E30CDFC1B56A00B009AA06A /* PBXTargetDependency */,
+			);
+			name = GuitarPooTests;
+			productName = GuitarPooTests;
+			productReference = 4E30CDFA1B56A00B009AA06A /* GuitarPooTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4E30CDD61B56A00B009AA06A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Joseph Liao";
+				TargetAttributes = {
+					4E30CDDD1B56A00B009AA06A = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = B8LRBM6UYQ;
+					};
+					4E30CDF91B56A00B009AA06A = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 4E30CDDD1B56A00B009AA06A;
+					};
+				};
+			};
+			buildConfigurationList = 4E30CDD91B56A00B009AA06A /* Build configuration list for PBXProject "GuitarPoo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4E30CDD51B56A00B009AA06A;
+			productRefGroup = 4E30CDDF1B56A00B009AA06A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4E30CDDD1B56A00B009AA06A /* GuitarPoo */,
+				4E30CDF91B56A00B009AA06A /* GuitarPooTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4E30CDDC1B56A00B009AA06A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E30CDF01B56A00B009AA06A /* Main.storyboard in Resources */,
+				4E30CDF51B56A00B009AA06A /* LaunchScreen.xib in Resources */,
+				4E30CDF21B56A00B009AA06A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E30CDF81B56A00B009AA06A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E30CDDA1B56A00B009AA06A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E30CDE71B56A00B009AA06A /* AppDelegate.m in Sources */,
+				4E30CDEA1B56A00B009AA06A /* GuitarPoo.xcdatamodeld in Sources */,
+				4E30CDED1B56A00B009AA06A /* ViewController.m in Sources */,
+				4E30CDE41B56A00B009AA06A /* main.m in Sources */,
+				4E30CE421B56A2F5009AA06A /* Server.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E30CDF61B56A00B009AA06A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E30CE011B56A00B009AA06A /* GuitarPooTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4E30CDFC1B56A00B009AA06A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E30CDDD1B56A00B009AA06A /* GuitarPoo */;
+			targetProxy = 4E30CDFB1B56A00B009AA06A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4E30CDEE1B56A00B009AA06A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E30CDEF1B56A00B009AA06A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4E30CDF31B56A00B009AA06A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E30CDF41B56A00B009AA06A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4E30CE021B56A00B009AA06A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4E30CE031B56A00B009AA06A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4E30CE051B56A00B009AA06A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/ThirdParty/Parse",
+				);
+				INFOPLIST_FILE = GuitarPoo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4E30CE061B56A00B009AA06A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/ThirdParty/Parse",
+				);
+				INFOPLIST_FILE = GuitarPoo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4E30CE081B56A00B009AA06A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GuitarPooTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GuitarPoo.app/GuitarPoo";
+			};
+			name = Debug;
+		};
+		4E30CE091B56A00B009AA06A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GuitarPooTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GuitarPoo.app/GuitarPoo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4E30CDD91B56A00B009AA06A /* Build configuration list for PBXProject "GuitarPoo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E30CE021B56A00B009AA06A /* Debug */,
+				4E30CE031B56A00B009AA06A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E30CE041B56A00B009AA06A /* Build configuration list for PBXNativeTarget "GuitarPoo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E30CE051B56A00B009AA06A /* Debug */,
+				4E30CE061B56A00B009AA06A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4E30CE071B56A00B009AA06A /* Build configuration list for PBXNativeTarget "GuitarPooTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E30CE081B56A00B009AA06A /* Debug */,
+				4E30CE091B56A00B009AA06A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4E30CDE81B56A00B009AA06A /* GuitarPoo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4E30CDE91B56A00B009AA06A /* GuitarPoo.xcdatamodel */,
+			);
+			currentVersion = 4E30CDE91B56A00B009AA06A /* GuitarPoo.xcdatamodel */;
+			path = GuitarPoo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4E30CDD61B56A00B009AA06A /* Project object */;
+}
